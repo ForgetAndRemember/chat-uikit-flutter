@@ -281,6 +281,8 @@ class _TUIChatState extends TIMUIKitState<TIMUIKitChat> {
     final isBuild = isInit;
     isInit = true;
 
+
+
     return TIMUIKitChatProviderScope(
         model: model,
         groupID: widget.groupID,
